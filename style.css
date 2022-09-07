@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#myVideo {
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    align-self: center;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 50px 75px;
+    color: white;
+    background-image: linear-gradient(transparent, black);
+    z-index: 999;
+}
+
+.content p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#playbackBtn {
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#playbackBtn:hover {
+    background: #ddd;
+    color: black;
+}
